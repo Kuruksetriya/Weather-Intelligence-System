@@ -1,0 +1,22 @@
+{
+  "initial_rows": 35064,
+  "final_rows": 35061,
+  "features_created": [
+    "dew_point_spread",
+    "pressure_trend_3h",
+    "humidity_trend_3h",
+    "past_precip_3h",
+    "hour",
+    "month",
+    "day_of_year"
+  ],
+  "target_variable": "target_rain_next_3h",
+  "target_definition": "Precipitation > 0.1mm occurring within the upcoming 1 to 3 hour window (t+1 to t+3)",
+  "target_distribution": {
+    "no_rain_count": 28081,
+    "rain_count": 6980,
+    "rain_percentage": 19.91
+  },
+  "time_range_start": "2021-01-01 03:00:00",
+  "time_range_end": "2024-12-31 23:00:00"
+}

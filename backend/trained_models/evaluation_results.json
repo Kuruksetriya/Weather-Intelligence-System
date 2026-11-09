@@ -1,0 +1,87 @@
+{
+  "models_evaluated": {
+    "Logistic Regression": {
+      "accuracy": 0.7723,
+      "precision": 0.4629,
+      "recall": 0.7381,
+      "f1_score": 0.569,
+      "roc_auc": 0.8419,
+      "confusion_matrix": [
+        [
+          4362,
+          1223
+        ],
+        [
+          374,
+          1054
+        ]
+      ],
+      "uses_scaled_inputs": true
+    },
+    "Decision Tree": {
+      "accuracy": 0.7572,
+      "precision": 0.4488,
+      "recall": 0.8445,
+      "f1_score": 0.5861,
+      "roc_auc": 0.8631,
+      "confusion_matrix": [
+        [
+          4104,
+          1481
+        ],
+        [
+          222,
+          1206
+        ]
+      ],
+      "uses_scaled_inputs": false
+    },
+    "Random Forest": {
+      "accuracy": 0.8021,
+      "precision": 0.5088,
+      "recall": 0.806,
+      "f1_score": 0.6238,
+      "roc_auc": 0.8792,
+      "confusion_matrix": [
+        [
+          4474,
+          1111
+        ],
+        [
+          277,
+          1151
+        ]
+      ],
+      "uses_scaled_inputs": false
+    }
+  },
+  "selected_model": "Random Forest",
+  "feature_importances": {
+    "past_precip_3h": 0.4137,
+    "surface_pressure": 0.1868,
+    "pressure_trend_3h": 0.0839,
+    "wind_direction_10m": 0.0489,
+    "wind_speed_10m": 0.0473,
+    "temperature_2m": 0.041,
+    "hour": 0.0356,
+    "humidity_trend_3h": 0.0325,
+    "apparent_temperature": 0.0303,
+    "relative_humidity_2m": 0.0301,
+    "dew_point_spread": 0.03,
+    "month": 0.0199
+  },
+  "feature_cols": [
+    "temperature_2m",
+    "relative_humidity_2m",
+    "apparent_temperature",
+    "dew_point_spread",
+    "surface_pressure",
+    "pressure_trend_3h",
+    "humidity_trend_3h",
+    "past_precip_3h",
+    "wind_speed_10m",
+    "wind_direction_10m",
+    "hour",
+    "month"
+  ]
+}

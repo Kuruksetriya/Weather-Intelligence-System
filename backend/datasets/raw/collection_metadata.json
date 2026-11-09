@@ -1,0 +1,27 @@
+{
+  "source": "Open-Meteo Historical Weather API",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "location": "London",
+  "latitude": 51.5074,
+  "longitude": -0.1278,
+  "start_date": "2021-01-01",
+  "end_date": "2024-12-31",
+  "record_count": 35064,
+  "collected_at_utc": "2026-11-06T17:29:18.804306",
+  "columns": [
+    "time",
+    "temperature_2m",
+    "relative_humidity_2m",
+    "dew_point_2m",
+    "apparent_temperature",
+    "precipitation",
+    "rain",
+    "surface_pressure",
+    "wind_speed_10m",
+    "wind_direction_10m",
+    "weather_code",
+    "location_name",
+    "latitude",
+    "longitude"
+  ]
+}
